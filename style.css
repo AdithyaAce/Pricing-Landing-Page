@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #042a49; /* White background */
+    border-radius: 0;
+    box-shadow: 0 2px 10px rgba(182, 173, 173, 0.1); /* Drop shadow effect */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #68c7ef; /* Dark text color */
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    text-align: center;
+    color: #68c7ef; /* Dark text color */
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .price-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .price-col {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #d0faf6;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(107, 91, 91, 0.1);
+    transition: transform 0.3s ease; /* Smooth transition */
+    margin: 10px;
+  }
+  
+  .price-col:hover {
+    transform: translateY(-5px); /* Move up slightly on hover */
+  }
+  
+  .price-col p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #cd7f36; /* Green color */
+  }
+  
+  .price-col h3 {
+    font-size: 36px;
+    margin: 15px 0;
+    color: #eb8508; /* Dark text color */
+  }
+  
+  .price-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .price-col ul li {
+    margin-bottom: 10px;
+    color: #666; /* Medium gray text color */
+  }
+  
+  .price-col button {
+    background-color: #4CAF50;
+    color: rgb(46, 25, 207);
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .price-col button:hover {
+    background-color: #62b2d4; /* Darker green color on hover */
+  }
+  
+  .selection-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .currency-select,
+  .unit-select {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .currency-select select,
+  .unit-select select {
+    padding: 2px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #c2e480;
+    box-sizing: border-box;
+    background-color: #3adece; /* Light gray background */
+  }
+
+  .currency-select label {
+    text-align: center;
+    color: #68c7ef; /* Dark text color */
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.unit-select label {
+    text-align: center;
+    color: #68c7ef; /* Dark text color */
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.unit-select select {
+    text-align: center;
+    color: #333; /* Adjust text color as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    padding: 5px;
+}
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #ea1111;
+    margin: 20px 0;
+  }
